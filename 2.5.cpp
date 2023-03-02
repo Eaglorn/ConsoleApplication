@@ -9,7 +9,7 @@ int main()
     
     for (i = 0; i <= 15; i++)
     {
-        printf("hello");
+        printf(i);
     }
     
     for (i = 0; i <= 15; i++)
@@ -18,5 +18,10 @@ int main()
 		{
 			printf(i);
 		}
+    }
+    
+    for (i = 5; i <= 16; i++)
+    {
+        printf(i);
     }
 }
